@@ -1,4 +1,4 @@
-### Java学习记录
+### 菜鸟教程
 
 1. github访问不了，通过 [这个网站](https://websites.ipaddress.com/github.com) 查询github的ip地址；然后执行命令`sudo vim /etc/hosts`，把hosts中的`github.com`对应的ip修改为刚才查到的ip地址即可
 2. 类名首字母大写；方法名小写字母开头，之后每个单词首字母大写；源文件名必须和类名相同；所有的Java程序由```java public static void main(String[] args)```方法开始执行
@@ -121,4 +121,8 @@
 29. abstract抽象类不能用来实例话对象，声明抽象类用来对该类进行扩充；一个类不能同时被abstract和final修饰，包含抽象方法的类需要声明为抽象类；抽象方法是一种没有任何实现的方法，具体实现由子类提供，抽象方法不能声明为final和static；非抽象子类需要实现抽象父类的所有抽象方法；
 30. synchronized线程锁；transient不需要序列化的实例变量；volatile每次访问都重新读取变量值
 31. Java运算符，算术运算符 + - * / % ++ --；关系运算符 == != > < >= <=；位运算符 & | ^ ~ << >> >>>；逻辑运算符 && || !；短路逻辑运算符 只判断逻辑运算符的某一个；赋值运算符；条件运算符；instanceof运算符；
-32. Java循环结构
+32. Java循环结构，Java中有while，do...while，for三种循环结构；
+33. Java条件语句，if...else...，switch...case...
+34. Java Number&Math类，Number对基本数字类型包装成对象类型；
+35. Java Character类，用于对单个字符进行操作，是基本类型char的包装类；
+36. Java String类，
