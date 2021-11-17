@@ -125,4 +125,5 @@
 33. Java条件语句，if...else...，switch...case...
 34. Java Number&Math类，Number对基本数字类型包装成对象类型；
 35. Java Character类，用于对单个字符进行操作，是基本类型char的包装类；
-36. Java String类，
+36. Java String类，直接创建的字符串在栈上，new创建的字符串在堆上；StringBuffer和StringBuilder类，可变字符串；StringBuffer是线程安全的，StringBuilder不是线程安全的；
+37. Java数组
