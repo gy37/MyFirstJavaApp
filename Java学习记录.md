@@ -128,4 +128,5 @@
 36. Java String类，直接创建的字符串在栈上，new创建的字符串在堆上；StringBuffer和StringBuilder类，可变字符串；StringBuffer是线程安全的，StringBuilder不是线程安全的；
 37. Java数组，推荐使用dataType[] array的方式声明数组变量；使用array = new dataType[size]创建数组；声明和创建可以合并成dataType[] array = new dataType[size]；还可以用下面的方式dataType[] array = {value0, value1, ..., valuen}；
 38. sout快速打印
-39. Java日期时间
+39. Java日期时间，Date()获取当前日期时间，Date(millisec)根据时间戳获取时间，测量时间；Calendar类
+40. Java正则表达式
