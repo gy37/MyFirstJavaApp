@@ -129,4 +129,5 @@
 37. Java数组，推荐使用dataType[] array的方式声明数组变量；使用array = new dataType[size]创建数组；声明和创建可以合并成dataType[] array = new dataType[size]；还可以用下面的方式dataType[] array = {value0, value1, ..., valuen}；
 38. sout快速打印
 39. Java日期时间，Date()获取当前日期时间，Date(millisec)根据时间戳获取时间，测量时间；Calendar类
-40. Java正则表达式
+40. Java正则表达式，\\表示正则表达式中的转义字符，\将下一个字符标记为特殊字符、文本、反向引用或八进制转义符，^匹配字符串开始的位置，$匹配字符串结尾的位置，*零次或多次匹配，+一次或多次匹配，?零次或一次匹配，{n}匹配n次，{n,}至少匹配n次，{n,m}至少匹配n次至多m次，?在其他限定符之后（*、+、?、{n}、{n,}、{n,m}）之后表示非贪婪匹配，.匹配除\r\n之外的任何但个字符，[]匹配指定字符集；Matcher类的对象，start和end方法返回匹配的初始索引，matches整个匹配，find查找匹配的下一个子序列，lookingAt从开始匹配，replaceFirst替换首次匹配，replaceAll替换多有匹配，appendReplacement和appendTail用于文本替换；
+41. Java方法
