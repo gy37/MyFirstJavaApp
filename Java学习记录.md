@@ -132,4 +132,5 @@
 40. Java正则表达式，\\表示正则表达式中的转义字符，\将下一个字符标记为特殊字符、文本、反向引用或八进制转义符，^匹配字符串开始的位置，$匹配字符串结尾的位置，*零次或多次匹配，+一次或多次匹配，?零次或一次匹配，{n}匹配n次，{n,}至少匹配n次，{n,m}至少匹配n次至多m次，?在其他限定符之后（*、+、?、{n}、{n,}、{n,m}）之后表示非贪婪匹配，.匹配除\r\n之外的任何但个字符，[]匹配指定字符集；Matcher类的对象，start和end方法返回匹配的初始索引，matches整个匹配，find查找匹配的下一个子序列，lookingAt从开始匹配，replaceFirst替换首次匹配，replaceAll替换多有匹配，appendReplacement和appendTail用于文本替换；
 41. Java方法，修饰符+返回值类型+方法名+参数类型+方法体；构造方法，用来初始化对象，构造方法和类的名字相同；
 42. Java流、文件、IO，read()从BufferedReader对象读取一个字符，读取一个字符串用readLine()方法，FileInputStream用于从文件读取数据，FileOutputStream用于想文件中写数据；
-43. Java Scanner类，
+43. Java Scanner类，Scanner类获取用户的输入，通过Scanner类的next和nextLine方法获取输入的字符串，用hasNext和hasNextLine方法判断是否还有输入的数据，next不能得到有空格的字符串，nextLine可以得到空格；
+44. Java异常处理
