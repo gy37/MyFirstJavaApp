@@ -133,4 +133,5 @@
 41. Java方法，修饰符+返回值类型+方法名+参数类型+方法体；构造方法，用来初始化对象，构造方法和类的名字相同；
 42. Java流、文件、IO，read()从BufferedReader对象读取一个字符，读取一个字符串用readLine()方法，FileInputStream用于从文件读取数据，FileOutputStream用于想文件中写数据；
 43. Java Scanner类，Scanner类获取用户的输入，通过Scanner类的next和nextLine方法获取输入的字符串，用hasNext和hasNextLine方法判断是否还有输入的数据，next不能得到有空格的字符串，nextLine可以得到空格；
-44. Java异常处理
+44. Java异常处理，try...catch...用于异常捕获，用在可能发生异常的地方；throws/throw，如果一个方法没有捕获到一个检查性异常，那么该方法必须使用throws关键字来声明，也可以用throw抛出异常；finally关键字用于创建在try...catch...之后执行的代码块，无论是否发生异常，finally中的代码总会被执行；
+45. Java继承
