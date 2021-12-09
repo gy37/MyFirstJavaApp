@@ -134,4 +134,7 @@
 42. Java流、文件、IO，read()从BufferedReader对象读取一个字符，读取一个字符串用readLine()方法，FileInputStream用于从文件读取数据，FileOutputStream用于想文件中写数据；
 43. Java Scanner类，Scanner类获取用户的输入，通过Scanner类的next和nextLine方法获取输入的字符串，用hasNext和hasNextLine方法判断是否还有输入的数据，next不能得到有空格的字符串，nextLine可以得到空格；
 44. Java异常处理，try...catch...用于异常捕获，用在可能发生异常的地方；throws/throw，如果一个方法没有捕获到一个检查性异常，那么该方法必须使用throws关键字来声明，也可以用throw抛出异常；finally关键字用于创建在try...catch...之后执行的代码块，无论是否发生异常，finally中的代码总会被执行；
-45. Java继承
+45. Java继承，子类拥有父类非private属性、方法；子类有自己的属性和方法；子类可以重写父类的方法；继承提高了类之间的耦合性；所有类默认继承Object；extends只能继承一个类，implements可以同时实现多个接口； 
+46. super关键字可以实现对父类成员的访问，用来引用当前对象的父类；this关键字指向自己，当前对象；final关键字可以把类定义为不能继承的，用于修饰方法表示不能被子类重写；
+47. 子类不继承父类的构造器，只是调用；如果父类构造器带参数，则子类中的构造器必须显式的通过super调用父类的构造器；如果父类构造器没有参数，则子类的构造器中不需要使用super调用父类的构造器，系统会自动调用父类的无参数构造器；
+48. Java重写与重载，
