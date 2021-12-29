@@ -146,4 +146,5 @@
 54. Java包，把功能相似或相关的类或接口放在同一个包中，类似文件夹结构，可以限制包的访问权限；java.lang基础类，java.io输入输出功能；
 55. Java数据结构，包括枚举、位集合、向量、栈、字典、哈希表、属性；
 56. Java集合框架；
-57. Java ArrayList
+57. Java ArrayList，arraylist中的元素都是对西那个，如果使用基本类型需要使用对应的包装类；
+58. Java LinkedList，

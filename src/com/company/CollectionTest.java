@@ -44,5 +44,29 @@ public class CollectionTest {
         for (String v: map.values()) {
             System.out.println("value=" + v);
         }
+
+        ArrayList<String> sites = new ArrayList<String>();
+        sites.add("Google");
+        sites.add("Runoob");
+        sites.add("Tabobao");
+        sites.add("Weibo");
+        sites.remove(3);
+        System.out.println(sites);
+        System.out.println(sites.size());
+        sites.set(1, "Wiki");
+        System.out.println(sites.get(1));
+        for (String site: sites) {
+            System.out.println(site);
+        }
+
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        numbers.add(30);
+        numbers.add(25);
+        numbers.add(10);
+        numbers.add(45);
+        Collections.sort(numbers);
+        for (Integer number: numbers) {
+            System.out.println(number);
+        }
     }
 }
