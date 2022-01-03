@@ -48,7 +48,7 @@ public class CollectionTest {
         ArrayList<String> sites = new ArrayList<String>();
         sites.add("Google");
         sites.add("Runoob");
-        sites.add("Tabobao");
+        sites.add("Taobao");
         sites.add("Weibo");
         sites.remove(3);
         System.out.println(sites);
@@ -68,5 +68,52 @@ public class CollectionTest {
         for (Integer number: numbers) {
             System.out.println(number);
         }
+
+        LinkedList<String> lSites = new LinkedList<String>();
+        lSites.add("Google");
+        lSites.add("Runoob");
+        lSites.add("Taobao");
+        lSites.add("Weibo");
+        lSites.addFirst("Wiki");
+        lSites.addLast("Baidu");
+        System.out.println(lSites);
+        lSites.removeFirst();
+        lSites.removeLast();
+        System.out.println(lSites);
+        System.out.println(lSites.getFirst());
+        for (String site: lSites) {
+            System.out.println(site);
+        }
+
+        HashSet<String> hSites = new HashSet<String>();
+        hSites.add("Google");
+        hSites.add("Runoob");
+        hSites.add("Taobao");
+        hSites.add("Weibo");
+        hSites.add("Runoob");
+        System.out.println(hSites);
+        System.out.println(hSites.contains("Taobao"));
+        hSites.clear();
+        System.out.println(hSites);
+
+        HashMap<Integer, String> mSites = new HashMap<Integer, String>();
+        mSites.put(1, "Google");
+        mSites.put(2, "Runoob");
+        mSites.put(3, "Taobao");
+        mSites.put(4, "Zhihu");
+        System.out.println(mSites);
+        System.out.println(mSites.get(3));
+        mSites.remove(3);
+        System.out.println(mSites);
+
+        Iterator<Integer> it = mSites.keySet().iterator();
+        while (it.hasNext()) {
+            Integer in = it.next();
+            System.out.println();
+            if (in < 3) {
+                it.remove();
+            }
+        }
+        System.out.println(mSites);
     }
 }

@@ -147,4 +147,9 @@
 55. Java数据结构，包括枚举、位集合、向量、栈、字典、哈希表、属性；
 56. Java集合框架；
 57. Java ArrayList，arraylist中的元素都是对西那个，如果使用基本类型需要使用对应的包装类；
-58. Java LinkedList，
+58. Java LinkedList，增加删除的操作效率更高；
+59. Java HashSet，基于HashMap实现，不允许有重复元素；
+60. Java HashMap，散列表，存储键值对映射；
+61. Java Iterator，迭代器用于访问集合的方法；
+62. Java Object，所有类的父类，子类可以使用Object的所有方法；
+63. Java泛型，
