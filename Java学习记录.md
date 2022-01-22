@@ -156,3 +156,4 @@
 64. Java序列化，一个对象可以被表示为一个字节序列，可以从文件中读取出来；需要实现Serializable接口，所有属性必须是可序列化的，如果有不可序列化的属性，必须声明为短暂的；
 65. Java网络编程，Socket编程，提供了两台计算机之间的通信机制；服务器创建一个serverSocket对象；服务器调用accept方法，等待客户端链接；客户端实例化一个socket对象，指定服务器名称和端口来请求链接；
 66. Java发送邮件，下载mail.jar和activation.jar复制到项目中，右键add as library添加到项目中；
+67. Java多线程编程，线程声明周期，新建-start-就绪-run-运行-sleep/suspend-阻塞-完成任务-死亡；创建线程，Runnable接口/Thread类/Callable和Future；调用start后，系统会在空闲时调用run方法执行任务；实现Runnable、Callable接口创建多线程，还可以继承Thread类的方式创建多线程；
