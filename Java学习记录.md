@@ -157,3 +157,4 @@
 65. Java网络编程，Socket编程，提供了两台计算机之间的通信机制；服务器创建一个serverSocket对象；服务器调用accept方法，等待客户端链接；客户端实例化一个socket对象，指定服务器名称和端口来请求链接；
 66. Java发送邮件，下载mail.jar和activation.jar复制到项目中，右键add as library添加到项目中；
 67. Java多线程编程，线程声明周期，新建-start-就绪-run-运行-sleep/suspend-阻塞-完成任务-死亡；创建线程，Runnable接口/Thread类/Callable和Future；调用start后，系统会在空闲时调用run方法执行任务；实现Runnable、Callable接口创建多线程，还可以继承Thread类的方式创建多线程；
+68. Java mysql链接，使用mysql.server start启动mysql服务器，如果失败可以使用brew services start mysql启动；JDBC(Java Database Connectivity)可以使用相同的接口访问不同的数据库，即访问数据库的通用API；DriverManager驱动管理，Connection链接接口，Statement语句对象，ResultSet结果集合；Class.forName(JDBC_DRIVER)加载驱动，connection = DriverManager.getConnection(DB_URL, USER, PASSWORD)链接数据库，mysql默认端口号3306；
