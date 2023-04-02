@@ -1,8 +1,5 @@
 package com.company;
 
-import java.io.File;
-import java.io.FileInputStream;
-
 public class ExceptionTest {
     public static void main(String[] args) {
         int a[] = new int[2];

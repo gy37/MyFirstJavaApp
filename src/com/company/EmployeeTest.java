@@ -1,5 +1,4 @@
 package com.company;
-import java.io.*;
 
 class Employee {
     String name;

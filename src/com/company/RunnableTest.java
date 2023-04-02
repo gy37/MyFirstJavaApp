@@ -1,8 +1,6 @@
 package com.company;
 
 import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.FutureTask;
 
 public class RunnableTest implements Runnable {
     private Thread thread;
